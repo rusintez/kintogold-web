@@ -22,7 +22,9 @@ swarm.on('peer', (peer, id) => {
   console.log(peer, id);
   const scene = document.querySelector('a-scene');
   const peerEl = document.createElement('a-box');
-  peerEl.setAttribute('position', '0 1.6 0');
+  const x = Math.ceil(Math.random() * 5);
+  const z = Math.ceil(Math.random() * 5);
+  peerEl.setAttribute('position', `${x} 1.6 ${z}`);
   scene.appendChild(peerEl);
 
   emitter.on('position', ({ position, rotation }) => {
