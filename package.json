@@ -1,0 +1,29 @@
+{
+  "name": "kintogold-web",
+  "version": "1.0.0",
+  "description": "web",
+  "main": "index.js",
+  "scripts": {
+    "start": "PORT=80 node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rusintez/kintogold-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rusintez/kintogold-web/issues"
+  },
+  "homepage": "https://github.com/rusintez/kintogold-web#readme",
+  "dependencies": {
+    "aframe": "^0.8.2",
+    "aframe-environment-component": "^1.1.0",
+    "express": "^4.16.4",
+    "ngrok": "^3.1.0",
+    "parcel-bundler": "^1.10.3",
+    "signalhub": "^4.9.0",
+    "webrtc-swarm": "^2.9.0"
+  }
+}
